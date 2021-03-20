@@ -23,5 +23,17 @@ public class IptCaseStudy {
         return c.length();
     }
 
+    public String Lowercase(String a){
+        return a.toLowerCase();
+    }
+    
+    public String Uppercase(String a){
+        return a.toUpperCase();
+    }
+    
+    public String Replace(String a, String b){
+        return a.replace(a, b);
+   }
+
 
 }
