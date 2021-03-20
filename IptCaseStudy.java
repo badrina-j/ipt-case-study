@@ -34,6 +34,16 @@ public class IptCaseStudy {
     public String Replace(String a, String b){
         return a.replace(a, b);
    }
-
+  public int Compare(String a, String b){
+        return a.compareTo(b);
+    }
+    
+    public boolean Equal(String a, String b){
+        return a.equals(b);
+    }
+ 
+    public boolean Check(String a){
+       return a.isEmpty();
+    }
 
 }
