@@ -11,4 +11,17 @@ public class IptCaseStudy {
         return a.contains(b);
     }
 
+    public boolean EndsWith(String a, String b){
+        return a.endsWith(b);
+    }
+    
+    public String Concatinating(String a, String b){
+        return a.concat(b);
+    }
+    
+    public int Length(String c){
+        return c.length();
+    }
+
+
 }
