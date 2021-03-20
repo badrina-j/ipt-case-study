@@ -10,6 +10,11 @@ public class IptCaseStudy {
     public boolean Contains(String a, String b){
         return a.contains(b);
     }
+	
+	public int Compare(String a,String b){
+	return a.compareTo(b);
+	}
+
 
     public boolean EndsWith(String a, String b){
         return a.endsWith(b);
@@ -47,5 +52,14 @@ public class IptCaseStudy {
        return a.isEmpty();
     }
 
+	public boolean eqaul(String a, String b){
+	return a.equalsIgnoreCase(b);
+	}
+	
+	public boolean check(String a){
+	return a.isEmpty();
+	}
+
+	
 
 }
