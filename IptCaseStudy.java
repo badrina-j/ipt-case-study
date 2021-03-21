@@ -56,10 +56,10 @@ public class IptCaseStudy {
 	return a.equalsIgnoreCase(b);
 	}
 	
-	public boolean check(String a){
-	return a.isEmpty();
-	}
-
 	
+	
+
+
+
 
 }
